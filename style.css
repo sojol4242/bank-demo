@@ -1,0 +1,65 @@
+body {
+    padding: 50px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.form-area {
+    padding: 5rem 7rem;
+    margin: 5rem 5rem;
+    background-image: linear-gradient(to right top, #143367, #004e7a, #156888, #3b8193, #629a9d);
+    -webkit-box-shadow: 7px 5px 13px -3px rgba(0, 0, 0, 0.76);
+    box-shadow: 7px 5px 13px -3px rgba(0, 0, 0, 0.76);
+    border-radius: 10px;
+}
+
+.btn {
+    background: rgb(30, 210, 201);
+    color: cornsilk;
+}
+
+.balance,
+.withdraw,
+.deposit {
+    background: orange;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5rem 0;
+    color: white;
+}
+
+.withdraw {
+    background: salmon;
+    color: black;
+}
+
+.deposit {
+    background: rgb(94, 65, 255);
+    color: white;
+}
+
+.withdrawAmount,
+.depositAmount {
+    padding: 4rem 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit {
+    margin-top: 1rem;
+}
+
+#dashboardId {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* .card-title .card-text {
+    padding: 2rem 0;
+} */
